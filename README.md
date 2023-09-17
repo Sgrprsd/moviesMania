@@ -17,7 +17,7 @@ that allows users to search for movies using the OMDB API and display the result
 | :-------- | :------- | :-------------------------------- |
 | `debouncedValue`      | `string` | **Required**. name of movie |
 | `page`      | `string` | **Required**. used over pagination |
-| `891203b7` | `string` | **Required**. Your API key |
+| `891203b7` | `string` | **Required**. API key |
 
 
 
