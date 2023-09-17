@@ -10,9 +10,9 @@ import Spinner from "./components/Spinner";
 const App = () => {
   const [query, setQuery] = useState("");
   const [movies, setMovies] = useState([]);
-  const [debouncedValue] = useDebounce(query, 1000);
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(1);
+  const [debouncedValue] = useDebounce(query, 1000);
 
   useEffect(() => {
     const fetchMovies = async () => {
